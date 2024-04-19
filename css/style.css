@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(./dark-anime-1920X1200-wallpaper-hap3kxf8czba91pc.jpeg);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    padding: 3%;
+    margin: 0 auto;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav .logo {
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: 0.5s;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgb(2, 165, 152);
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  h1 {
+    color: whitesmoke;
+    margin-top: 150px;
+    font-size: 25px;
+  }
+ 
+  .btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(2, 165, 152);
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover {
+    background-color: rgb(2, 165, 152);
+  }
+  
+  table{
+    width: 60%;
+    background-color: rgb(6, 67, 128);
+    border-collapse: collapse;
+    border-bottom: 10%;
+    text-align: center;
+    float: right;
+
+
+}
+table tr{
+    border: 2px solid black;
+    
+}
+
+th, td{
+    padding: 10px;
+    font-size: 18px;
+    height: 20px;
+    text-align: center;
+}
+
+
+thead tr{
+    background-color: rgb(2, 33, 87);
+    color: white;
+}
+
+ tbody tr:nth-child(even){   
+    background-color: #021261;
+    color: white;
+}
+
+tbody tr:hover{
+    background-color: rgb(44, 194, 235);
+}
+
+
+/* formulario*/
+
+.formulario {
+  background-color: rgb(0, 0, 0);
+    text-align: justify;
+    width: 100%;
+    border-radius: 50px;
+   margin: 0%;
+   display: flex;
+   flex-direction: row; /* row é padrão */
+   justify-content: center;
+    
+  
+
+
+
+}
+  form{
+      width: 50%;
+      margin: 0 auto;
+      text-align:center;
+  
+  }
+  
+   input, label{
+      display: block;
+      font-family:'Courier New', Courier, monospace;
+      color: white;
+    
+      
+    }
+   
+  
+   input, select {
+      width: 50%;
+      padding: 8px;
+      font-size: 15px; 
+      margin: 0 auto;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      border: none;
+      border-bottom:4px solid #694df7;
+   }
+
+   #enviar{
+    border: none;
+    background-color: rgb(39, 0, 179);
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    border-bottom: 4px solid rgb(39, 0, 179);
+
+    
+}
+
+#enviar:hover{
+background-color: #0deff7;        
+}
